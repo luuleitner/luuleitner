@@ -7,5 +7,5 @@ How to reach me: [chu.leitner@gmail.com](mailto:chu.leitner@gmail.com)\
 
 
 ### Favorit Projects
-* Hardware: [pulp-platform](https://github.com/pulp-platform)\
-* Biomechanical Data: [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)\
+* Hardware: [pulp-platform](https://github.com/pulp-platform)
+* Biomechanical Data: [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)
