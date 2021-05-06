@@ -7,5 +7,6 @@ How to reach me: [chu.leitner@gmail.com](mailto:chu.leitner@gmail.com)\
 
 
 ### Favorit Projects
+* Python: [pybf-beamformer](https://github.com/luuleitner/pybf)
 * Hardware: [pulp-platform](https://github.com/pulp-platform)
 * Biomechanical Data: [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)
