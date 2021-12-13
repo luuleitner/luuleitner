@@ -7,6 +7,6 @@ How to reach me: [christoph.leitner@tugraz.at](mailto:christoph.leitner@tugraz.a
 
 
 ### Favorit Projects
-* **Python:** [pybf](https://github.com/luuleitner/pybf)
+* **Ultrasound:** [pybf](https://github.com/luuleitner/pybf)
 * **Hardware:** [pulp-platform](https://github.com/pulp-platform)
 * **Biomechanics:** [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)
