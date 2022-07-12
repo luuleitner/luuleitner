@@ -7,6 +7,6 @@ How to reach me: [christoph.leitner@tugraz.at](mailto:christoph.leitner@tugraz.a
 
 
 ### Favorit Projects
-* **Ultrasound:** [pybf beamformer](https://github.com/Sergio5714/pybf)
+* **Ultrasound:** [pybf](https://github.com/Sergio5714/pybf)
 * **Hardware:** [pulp-platform](https://github.com/pulp-platform)
-* **Biomechanics:** [pennation angle tracking](https://github.com/iis-eth-zurich/AEPUS), [free biomechanics ressources](https://github.com/modenaxe/awesome-biomechanics)
+* **Biomechanics:** [aepus](https://github.com/iis-eth-zurich/AEPUS), [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)
