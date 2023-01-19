@@ -3,7 +3,7 @@
 Personal website: [chriskross.org](http://www.chriskross.org/)\
 How to reach me: [christoph.leitner@iis.ee.ethz.ch](mailto:christoph.leitner@iis.ee.ethz.ch)\
 \
-[![Christoph's GitHub stats](https://github-readme-stats--sigma-five.vercel.app/api?username=luuleitner&hide=prs,issues,&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Christoph's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=luuleitner&hide=prs,issues,&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### Favorit open-source projects
