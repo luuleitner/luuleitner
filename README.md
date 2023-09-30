@@ -7,6 +7,6 @@ How to reach me: [christoph.leitner@iis.ee.ethz.ch](mailto:christoph.leitner@iis
 
 
 ### Favorit open-source projects
-* **Ultrasound:** [wulpus]([https://github.com/Sergio5714/pybf](https://github.com/pulp-bio/wulpus))
+* **Ultrasound:** [wulpus](https://github.com/pulp-bio/wulpus)
 * **Hardware:** [pulp-platform](https://github.com/pulp-platform)
 * **Biomechanics:** [awesome-biomechanics](https://github.com/modenaxe/awesome-biomechanics)
