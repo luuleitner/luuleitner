@@ -9,9 +9,7 @@ I study how the human body turns activation into motion, and build the open inst
 
 #### Ecosystems
 
-| | |
-|---|---|
-| [**ModularUS**](https://github.com/ModularUS) | Modular ultrasound systems and algorithms: the ModulUS design platform, tools, and releases ([IEEE IUS 2025](https://doi.org/10.1109/IUS62464.2025.11201551), [Nature Sensors 2026](https://doi.org/10.1038/s44460-026-00118-z)) |
+- [**ModularUS**](https://github.com/ModularUS) · Modular ultrasound systems and algorithms: the ModulUS design platform, tools, and releases ([IEEE IUS 2025](https://doi.org/10.1109/IUS62464.2025.11201551), [Nature Sensors 2026](https://doi.org/10.1038/s44460-026-00118-z))
 
 #### Recent
 
