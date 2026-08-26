@@ -5,7 +5,7 @@
 
 ### Christoph Leitner
 
-I study how the human body turns activation into motion, and build the open instruments to measure it, from printed piezoelectric sensors on the skin to body-worn sensing in the field. I lead the SNSF Ambizione project [MiNI](https://data.snf.ch/grants/grant/233457) at ETH Zurich, Integrated Systems Laboratory.
+I study how the human body turns activation into motion, and build the open instruments to measure it, from printed piezoelectric sensors on the skin to body-worn in-action sensing in the field. I lead the SNSF Ambizione project [MiNI](https://data.snf.ch/grants/grant/233457) at ETH Zurich, Integrated Systems Laboratory.
 
 #### Ecosystems
 
