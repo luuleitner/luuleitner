@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="110 264 1380 418" width="1380" height="418" role="img" aria-label="Three scales of the same question: cell membrane dynamics measured with a microelectrode array and ultra-high-frequency ultrasound, muscle fascicle activation and force measured with an ultrasound probe, and limb movement measured with body-worn sensors">
+  <style>text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;}</style>
+  <defs>
+    <clipPath id="pCell_light"><circle cx="300" cy="450" r="170"/></clipPath>
+    <clipPath id="pFasc_light"><circle cx="800" cy="450" r="170"/></clipPath>
+    <clipPath id="pLimb_light"><circle cx="1300" cy="450" r="170"/></clipPath>
+  </defs>
+
+
+  <!-- ============ SMOOTH ZOOM FUNNELS ============ -->
+  <g fill="#f6f8fa" stroke="#d7dde3" stroke-width="1.1">
+    <path d="M1153,365 C 1060,352 990,318 885,303
+             L 885,597 C 990,582 1060,548 1153,535 Z"/>
+    <path d="M653,365 C 560,352 490,318 385,303
+             L 385,597 C 490,582 560,548 653,535 Z"/>
+  </g>
+
+  <!-- ============ MACRO : LIMB + IMUs ============ -->
+  <circle cx="1300" cy="450" r="170" fill="#ffffff"/>
+  <g clip-path="url(#pLimb_light)">
+    <g transform="translate(1300,450)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- thigh: hip -> knee (anterior knee = correct flexion) -->
+      <path d="M -34,-152 L 6,-14" stroke="#232323" stroke-width="18"/>
+      <!-- shank: knee -> ankle -->
+      <path d="M 6,-14 L -16,100" stroke="#232323" stroke-width="18"/>
+      <!-- foot -->
+      <path d="M -16,106 L 52,106" stroke="#232323" stroke-width="18"/>
+      <!-- calf belly, posterior -->
+      <path d="M -11,2 C -20,28 -22,56 -26,80" stroke="#E08214" stroke-width="21"/>
+      <!-- knee joint -->
+      <circle cx="6" cy="-14" r="4.5" fill="#ffffff" stroke="none"/>
+
+      <!-- IMUs on the segments -->
+      <g stroke="#6C4A9C" stroke-width="3.5">
+        <!-- thigh IMU -->
+        <rect x="-26" y="-97" width="22" height="22" rx="5" fill="#ffffff"/>
+        <circle cx="-15" cy="-86" r="3.5" fill="#6C4A9C" stroke="none"/>
+        <!-- shank IMU -->
+        <rect x="-9" y="41" width="22" height="22" rx="5" fill="#ffffff"/>
+        <circle cx="2" cy="52" r="3.5" fill="#6C4A9C" stroke="none"/>
+        <!-- foot IMU -->
+        <rect x="19" y="95" width="22" height="22" rx="5" fill="#ffffff"/>
+        <circle cx="30" cy="106" r="3.5" fill="#6C4A9C" stroke="none"/>
+      </g>
+    </g>
+  </g>
+  <circle cx="1300" cy="450" r="170" fill="none" stroke="#232323" stroke-width="2.4"/>
+
+  <!-- ============ MESO : FASCICLE + US ============ -->
+  <circle cx="800" cy="450" r="170" fill="#ffffff"/>
+  <g clip-path="url(#pFasc_light)">
+    <g transform="translate(800,450)" fill="none" stroke-linecap="round">
+      <!-- transducer above, firing down through the aponeurosis -->
+      <rect x="-22" y="-166" width="44" height="22" rx="6" fill="#ffffff" stroke="#232323" stroke-width="4"/>
+      <g stroke="#232323" stroke-width="3" opacity="0.5">
+        <path d="M-18,-138 A 22 22 0 0 0 18,-138"/>
+        <path d="M-29,-127 A 33 33 0 0 0 29,-127"/>
+      </g>
+      <!-- aponeuroses -->
+      <line x1="-190" y1="-95" x2="190" y2="-95" stroke="#232323" stroke-width="6"/>
+      <line x1="-190" y1="120" x2="190" y2="120" stroke="#232323" stroke-width="6"/>
+      <!-- fascicles -->
+      <g stroke="#E08214" stroke-width="8.5">
+        <line x1="-146" y1="120" x2="-92" y2="-95"/>
+        <line x1="-76" y1="120" x2="-22" y2="-95"/>
+        <line x1="-6" y1="120" x2="48" y2="-95"/>
+        <line x1="64" y1="120" x2="118" y2="-95"/>
+        <line x1="134" y1="120" x2="188" y2="-95"/>
+      </g>
+      <!-- ROI on one fascicle -->
+      <rect x="2" y="-4" width="34" height="34" rx="3" stroke="#2C7FB8" stroke-width="3"/>
+    </g>
+  </g>
+  <circle cx="800" cy="450" r="170" fill="none" stroke="#232323" stroke-width="2.4"/>
+
+  <!-- ============ MICRO : CELL + UHF-US ============ -->
+  <circle cx="300" cy="450" r="170" fill="#ffffff"/>
+  <g clip-path="url(#pCell_light)">
+    <g transform="translate(300,450)" fill="none" stroke-linecap="round">
+      <!-- cardiomyocyte: organic, tapered, slightly irregular -->
+      <path d="M -134,4
+               C -130,-24 -98,-44 -54,-42
+               C -12,-40 28,-47 70,-41
+               C 106,-36 132,-22 130,4
+               C 128,28 100,43 62,43
+               C 20,43 -16,47 -56,45
+               C -102,43 -138,32 -134,4 Z"
+            fill="#ffffff" stroke="#2C7FB8" stroke-width="5.5" stroke-linejoin="round"/>
+      <!-- sarcomere striations -->
+      <g stroke="#2C7FB8" stroke-width="4" opacity="0.45">
+        <line x1="-84" y1="-26" x2="-84" y2="30"/>
+        <line x1="-46" y1="-33" x2="-46" y2="36"/>
+        <line x1="52" y1="-34" x2="52" y2="36"/>
+        <line x1="92" y1="-30" x2="92" y2="32"/>
+      </g>
+      <!-- nucleus -->
+      <ellipse cx="6" cy="2" rx="21" ry="14" fill="#ffffff" stroke="#2C7FB8" stroke-width="5"/>
+      <!-- MEA -->
+      <line x1="-150" y1="86" x2="150" y2="86" stroke="#232323" stroke-width="5"/>
+      <g fill="#232323">
+        <circle cx="-80" cy="86" r="7.5"/>
+        <circle cx="0" cy="86" r="7.5"/>
+        <circle cx="80" cy="86" r="7.5"/>
+      </g>
+      <!-- UHF transducer -->
+      <rect x="-22" y="-138" width="44" height="22" rx="6" fill="#ffffff" stroke="#232323" stroke-width="4"/>
+      <g stroke="#232323" stroke-width="3" opacity="0.5">
+        <path d="M-18,-106 A 22 22 0 0 0 18,-106"/>
+        <path d="M-29,-93 A 33 33 0 0 0 29,-93"/>
+      </g>
+    </g>
+  </g>
+  <circle cx="300" cy="450" r="170" fill="none" stroke="#232323" stroke-width="2.4"/>
+  <text x="300" y="662" font-size="23" text-anchor="middle"><tspan fill="#1f2328" font-weight="600" letter-spacing="2.4">CELL</tspan><tspan fill="#656d76">  membrane dynamics (µm)</tspan></text>
+  <text x="800" y="662" font-size="23" text-anchor="middle"><tspan fill="#1f2328" font-weight="600" letter-spacing="2.4">MUSCLE</tspan><tspan fill="#656d76">  activation and force (mm)</tspan></text>
+  <text x="1300" y="662" font-size="23" text-anchor="middle"><tspan fill="#1f2328" font-weight="600" letter-spacing="2.4">BODY</tspan><tspan fill="#656d76">  movement in the field (m)</tspan></text>
+</svg>
